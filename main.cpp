@@ -26,10 +26,9 @@ int main()
 
     for(int i=1;i<100;i++)
         if(i%2==0 or i%3==0)
-            cout << endl;
+            cout << i << " No es primo " << endl;
         else
             cout << i << " Es primo" << endl;
-
 
 
     int i=1;
