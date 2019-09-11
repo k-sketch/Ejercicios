@@ -53,9 +53,11 @@ int main()
             for(int j=(i/2);j>=1;j--)
                 if( i%j==0)
                     a=a+j;
-            if(a==i)
-                cout<< a << " Es un numero perfecto " <<endl;
+        }
+        if(a==i)
+            cout<< a << " Es un numero perfecto " <<endl;
         a = 0;
+        }
 
 
 
